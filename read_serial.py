@@ -22,6 +22,9 @@ headers = {
 
 while True:
 
+    ser.flushInput()
+    time.sleep(2)
+
     serial_line = ser.readline().strip()
     
 #    if(serial_line.strip()>3):
