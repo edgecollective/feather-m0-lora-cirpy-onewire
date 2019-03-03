@@ -10,7 +10,7 @@ def isFloat(string):
         
 ser = serial.Serial('/dev/ttyACM2', 115200)
 
-url='https://wolfesneck.farmos.net/farm/sensor/listener/897bb683648b588143a90aa0d9722e13?private_key=0b1e93df5642afe181b53e498965592c'
+url='FARMOS_URL'
 
 headers = {
         'Content-Type': 'application/json',
